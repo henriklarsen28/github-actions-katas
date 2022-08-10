@@ -1,8 +1,7 @@
 name: hello-world
 on: push
 jobs:
-Build:
-  my-job:
+  Build:
     runs-on: ubuntu-latest
     container: gradle:6-jdk11
     steps:
